@@ -1,0 +1,154 @@
+@import url ('href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet');
+
+/*main css*/
+
+.page{
+     font-family: 'Ubuntu', sans-serif;
+}
+
+/*end*/
+
+/*nav css*/
+
+ul {
+     height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    margin-top: 0px;
+    list-style: none;
+}
+
+li a {
+    display: block;
+    padding: 8px 20px;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+li {
+    text-align: center;
+    border-bottom: 1px solid #555;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/*li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}*/
+
+/*end Nav*/
+
+/*main contain*/
+
+section {
+    max-width: 1280px;
+    height:100%;
+    background-color:pink;
+    margin-left:200px;
+    border-radius: 20px;
+    text-align: justify;
+}
+
+section #postOne{
+    max-width: 1280px;
+    height:100%;
+    background-color:pink;
+    margin-left:200px;
+    border-radius: 20px;
+    text-align: justify;
+}
+
+.imageSet{
+    width:300px;
+    height: 300px;
+    float: right;
+    margin:10px;
+}
+
+#postThree .imageSet{
+    width:900em;
+    height: 600px;
+}
+
+h1 { 
+    display: block;
+    font-size: 2em;
+    margin-top: 0.50em;
+    margin-bottom: 0.50em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+/*end main contain*/
+
+/*responsive*/
+
+@media (min-width: 480px) {
+          html {
+            background-color: darkblue;
+          }
+    .imageSet{
+        max-width: 100%;
+        height: auto;
+        float: right;
+        }
+    }
+
+@media (min-width: 580px) {
+        html {
+            background-color: purple;
+          }
+
+        .imageSet{
+            max-width: 100%;
+            height: auto;
+            float: right;
+        }
+
+@media (min-width: 700px) {
+        html {
+            background-color: bisque;
+          }
+
+        .imageSet{
+            max-width: 100%;
+            height: auto;
+            float: right;
+        }
+
+@media (min-width: 930px) {
+        html {
+            background-color: #f2f2f2;
+          }
+
+        .imageSet{
+            max-width: 100%;
+            height: auto;
+            float: right;
+        }
+
+/*responsive end
